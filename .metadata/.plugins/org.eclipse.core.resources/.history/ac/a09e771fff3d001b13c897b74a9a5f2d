@@ -1,0 +1,12 @@
+//Steps to Automate:
+//1. Open this url  http://automationpractice.com/index.php
+//2. Click on sign in link.
+//3. Enter email address and click Register button.
+//4. Enter incorrect values in fields like., enter numbers in first and last name, city field etc and enter alphabets in Mobile no, Zip postal code etc., and click on 'Register' button.
+//5. Verify that error messages fpr respective fields are displaying.
+
+package onlineAssignments;
+
+public class testCaseSix {
+
+}

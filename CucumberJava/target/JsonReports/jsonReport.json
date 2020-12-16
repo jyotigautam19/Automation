@@ -1,0 +1,113 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-08T16:06:03.790Z",
+        "line": 11,
+        "name": "Verify login with valid credentials",
+        "description": "",
+        "id": "login-functionality;verify-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 130000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the user enters Raghav and 12345",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 108000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "clicks on login button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user is navigated to the home page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-08T16:06:03.853Z",
+        "line": 12,
+        "name": "Verify login with valid credentials",
+        "description": "",
+        "id": "login-functionality;verify-login-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 128000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the user enters ele and 12345",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 123000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "clicks on login button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 519000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user is navigated to the home page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]

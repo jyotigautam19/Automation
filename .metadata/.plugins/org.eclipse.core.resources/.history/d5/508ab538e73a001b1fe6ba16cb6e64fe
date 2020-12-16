@@ -1,0 +1,35 @@
+//Negative Scenarios
+//Test Case 2 - Verify invalid email address error.
+//
+//Steps to Automate:
+//1. Open this url  http://automationpractice.com/index.php
+//2. Click on sign in link.
+//3. Enter invalid email address in the email box and click enter.
+//4. Validate that an error message is displaying saying "Invalid email address."
+
+package onlineAssignments;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class testCaseFour {
+	
+	public static void main(String[] args)
+	{
+	
+	WebDriver driver=new ChromeDriver();
+	driver.get("http://automationpractice.com/index.php");
+	driver.findElement(By.className("login")).click();
+	driver.findElement(By.id("email_create")).sendKeys("jjj");
+	
+	
+	if(driver.findElement(By.id("create_account_error")).getText().contains("Invalid email address"))	
+	
+	
+	System.out.println("error message validated");
+	
+	
+	
+	}
+}
