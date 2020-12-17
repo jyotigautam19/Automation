@@ -13,7 +13,7 @@
 //10. Click 'Add to Cart' button.
 //11. Click 'Proceed to checkout' button.
 //12. Complete the buy order process till payment.
-//13. Make sure that Product is ordered.
+//13. Make sure that the Product is ordered.
 
 package onlineAssignments;
 
