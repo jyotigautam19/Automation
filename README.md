@@ -5,5 +5,5 @@
 
 Each test case specifies the test scenario on the top commented .For example:
 
-|testCaseThree.java - Automates User Registration Process|testCaseSeven.java - Automates End to End Buy Order functionality.
+| testCaseThree.java - Automates User Registration Process | testCaseSeven.java - Automates End to End Buy Order functionality.
 
