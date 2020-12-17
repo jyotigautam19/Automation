@@ -1,6 +1,6 @@
 # Automation
 
-<b>CucumberJava</b> - Implemented the Login Functionality using the Page Object Model(POM) and using Cucumber/Selenium/Maven framework
+<b>CucumberJava</b> - Implemented the Login Functionality using the Page Object Model(POM) and using Cucumber/Selenium/Maven framework<br/>
 <b>Selenium Assignments</b> - Automated a number of test scenarios using Java for a test site "http://automationpractice.com/index.php"
 
 Each test case specifies the test scenario on the top commented .For example:
